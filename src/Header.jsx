@@ -1,7 +1,7 @@
-export default function Header() {
+export default function Header({ title }) {
   return (
     <header className="topbar">
-      <h1>Dashboard</h1>
+      <h1>{title}</h1>
 
       <div className="user-card">
         <div className="avatar">B</div>
